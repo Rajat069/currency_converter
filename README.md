@@ -2,6 +2,8 @@
 
 This is a simple webpage that allows you to convert currencies using the ExchangeRate API and display country flags using the Flag API. The webpage also features a dynamic background created using Vanta.js.
 
+![screenshot of the app](resources/screenshot.png?raw=true,"UI")
+
 ## Technologies Used
 
 - HTML
