@@ -11,7 +11,7 @@
     />
     <link rel="shortcut icon" type="image/jpg" href="./money.jpg" />
   </head>
-  <body>
+  <body id="main">
     <div id="navbar">
       <div id="logopar">
         <i class="fab fa-bitcoin" id="bitcoin"></i>
@@ -33,10 +33,7 @@
           <div class="from">
             <p>From</p>
             <div class="select-box">
-              <img
-                src="https://www.countryflags.io/in/flat/48.png"
-                alt="flag"
-              />
+              <img src="https://flagsapi.com/IN/flat/32.png" alt="flag" />
               <select>
                 <!-- Options tag are inserted from JavaScript -->
               </select>
@@ -46,10 +43,7 @@
           <div class="to">
             <p>To</p>
             <div class="select-box">
-              <img
-                src="https://www.countryflags.io/us/flat/48.png"
-                alt="flag"
-              />
+              <img src="https://flagsapi.com/US/flat/32.png" alt="flag" />
               <select>
                 <!-- Options tag are inserted from JavaScript -->
               </select>
@@ -57,20 +51,40 @@
           </div>
         </div>
         <div class="exchange-rate">Getting exchange rate...</div>
-        <button>Get Exchange Rate</button>
+        <button id="ex">Get Exchange Rate</button>
       </form>
     </div>
     <div id="connect">
       <h3>CONTACT ME</h3>
       <div id="icons">
-        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/Rajat069"><i class="fab fa-github"></i></a>
         <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="linkedin.com/in/rajat-singh-016874198" target="blank">
+        <a href="www.linkedin.com/in/rajat-singh-016874198" target="blank">
           <i class="fab fa-linkedin"></i
         ></a>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
     <script src="js/country-list.js"></script>
     <script src="js/script.js"></script>
+    <script src="three.r134.min.js"></script>
+<script>
+VANTA.DOTS({
+  el: "#main",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x2425c2,
+  color2: 0x2425c2,
+  size: 4.90,
+  spacing: 46.00
+})
+</script>
+    </script>
   </body>
 </html>

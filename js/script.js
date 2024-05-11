@@ -28,7 +28,7 @@ function loadFlag(element) {
       // if currency code of country list is equal to option value
       let imgTag = element.parentElement.querySelector("img"); // selecting img tag of particular drop list
       // passing country code of a selected currency code in a img url
-      imgTag.src = `https://www.countryflags.io/${country_list[code]}/flat/48.png`;
+      imgTag.src = `https://flagsapi.com/${country_list[code]}/flat/32.png`;
     }
   }
 }

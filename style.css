@@ -39,6 +39,9 @@ body {
   color: #fff;
   background: #675afe;
 }
+.amount {
+  margin-top: -18px;
+}
 .amount input {
   padding: 1px 3px;
   max-width: 390px;
@@ -57,9 +60,6 @@ body {
     rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   transition: transform 300ms;
-}
-.wrapper:hover {
-  transform: scale(1.06);
 }
 .wrapper header {
   font-size: 28px;
@@ -86,9 +86,8 @@ form input {
   border: 1px solid #999;
 }
 form input:focus {
-  padding: 0 1px;
-  border: 2px solid #2918ec;
-  transform: scale(1.05);
+  border: 3px solid #2918ec;
+  transition: 0.1s ease-in-out;
 }
 form .drop-list {
   display: flex;
@@ -148,8 +147,8 @@ form button {
   transition: 0.3s ease;
   width: 250px;
   position: relative;
-  left: 62px;
-  top: 15px;
+  left: 86px;
+  top: 2px;
 }
 form button:hover {
   background: rgba(24, 24, 112, 0.904);
@@ -188,7 +187,7 @@ a {
   left: 1160px;
   bottom: 30px;
   text-align: center;
-  background: #675afe;
+  background: #1e1585;
   color: rgb(255, 244, 244);
   padding-top: 18px;
   border-radius: 8px;
@@ -205,11 +204,14 @@ a i {
   margin: 10px 8px;
 }
 a i:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 a i:visited {
   color: #2918ec;
 }
 #Api i {
   font-size: 20px;
+}
+#ex {
+  width: 200px;
 }
